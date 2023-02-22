@@ -15,6 +15,11 @@ li{
 
 a{
   text-decoration: none;
+  color: white;
+}
+
+a:hover{
+  text-decoration: underline;
 }
 
 img{
@@ -99,6 +104,10 @@ img{
 
 .my-5{
   margin: 50px 0;
+}
+
+.pl-2{
+  padding-left: 20px;
 }
 
 .w-100{
@@ -192,21 +201,24 @@ main{
 }
 
 .card-infos .bottom-image-infos{
-  bottom: 140px;
+  bottom: 18%;
+  left: 0;
   z-index: 1;
-  padding: 5px 10px;
   color: white;
   font-weight: 800;
 }
 
-.card-infos .discount{
+.card-infos .bottom-image-infos .discount{
+  display: inline-block;
   background-color: red;
-  left: 0;
+  padding: 5px 10px;
+  margin-right: 5px;
 }
 
-.card-infos .sustainability{
+.card-infos .bottom-image-infos .sustainability{
+  display: inline-block;
   background-color: green;
-  left: 60px;
+  padding: 5px 10px;
 }
 
 .card-infos .favorite{
@@ -222,7 +234,7 @@ main{
 }
 
 .card-infos .card-undertext{
-  top: 580px;
+  top: 550px;
 }
 
 .card-undertext span{
@@ -247,4 +259,28 @@ main{
 .card-undertext .price:after{
   margin-left: 3px;
   content: "\20AC";
+}
+
+footer{
+  height: 150px;
+  background-color: #1A1A1A;
+  color: white;
+}
+
+footer .flex-container{
+  align-items: center;
+}
+
+footer .left-footer-content{
+  width: 85%;
+}
+
+
+footer nav.legal-menu ul li{
+  padding-right: 10px;
+}
+
+footer nav.social-icons ul li a i{
+  padding-right: 5px;
+  font-size: 25px;
 }
