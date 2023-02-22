@@ -9,11 +9,16 @@ body{
 }
 
 li{
+  list-style: none;
   display: inline-block;
 }
 
 a{
   text-decoration: none;
+}
+
+img{
+  object-fit: cover;
 }
 
 .px-1{
@@ -56,6 +61,46 @@ a{
   padding: 50px 0;
 }
 
+.mx-1{
+  margin: 0 10px;
+}
+
+.mx-2{
+  margin: 0 20px;
+}
+
+.mx-3{
+  margin: 0 30px;
+}
+
+.mx-4{
+  margin: 0 40px;
+}
+
+.mx-5{
+  margin: 0 50px;
+}
+
+.my-1{
+  margin: 10px 0;
+}
+
+.my-2{
+  margin: 20px 0;
+}
+
+.my-3{
+  margin: 30px 0;
+}
+
+.my-4{
+  margin: 40px 0;
+}
+
+.my-5{
+  margin: 50px 0;
+}
+
 .w-100{
   width: 100%;
 }
@@ -68,10 +113,23 @@ a{
   height: 50%;
 }
 
+.relative{
+  position: relative;
+}
+
+.absolute{
+  position: absolute;
+}
+
+.top-left{
+  top: 0;
+  left: 0;
+}
+
 .container{
   width: 90%;
   max-width: 1200px;
-  min-width: 800px;
+  min-width: 350px;
   margin: 0 auto;
 }
 
@@ -81,6 +139,14 @@ a{
 
 .justify-flex-end{
   justify-content: flex-end;
+}
+
+.flex-wrap{
+  flex-wrap: wrap;
+}
+
+.self-center{
+  align-self: center;
 }
 
 header{
@@ -104,4 +170,81 @@ header .flex-container{
 
 header .container .top-left-menu{
   font-weight: 800;
+}
+
+main{
+  margin-top: 80px;
+}
+
+.col{
+  width: calc(100%/3);
+  min-width: 350px;
+  height: 650px;
+  cursor: pointer;
+}
+
+.col .images img:last-child{
+  display: none;
+}
+
+.col .images:hover img:last-child{
+  display: block;
+}
+
+.card-infos .bottom-image-infos{
+  bottom: 140px;
+  z-index: 1;
+  padding: 5px 10px;
+  color: white;
+  font-weight: 800;
+}
+
+.card-infos .discount{
+  background-color: red;
+  left: 0;
+}
+
+.card-infos .sustainability{
+  background-color: green;
+  left: 60px;
+}
+
+.card-infos .favorite{
+  right: 0;
+  top: 10px;
+  padding: 5px 15px;
+  background-color: white;
+  font-size: 40px;
+}
+
+.card-infos .favorite:hover{
+  color: red;
+}
+
+.card-infos .card-undertext{
+  top: 580px;
+}
+
+.card-undertext span{
+  font-size: 14px;
+}
+
+.card-undertext .discounted-price{
+  color: red;
+  font-weight: 800;
+}
+
+.card-undertext .product-name{
+  text-transform: uppercase;
+  font-size: 20px;
+  font-weight: 800;
+}
+
+.card-undertext .original-price{
+  text-decoration: line-through;
+}
+
+.card-undertext .price:after{
+  margin-left: 3px;
+  content: "\20AC";
 }
