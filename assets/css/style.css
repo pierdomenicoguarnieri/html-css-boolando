@@ -1,3 +1,4 @@
+/* GENERAL */
 *{
   margin: 0;
   padding: 0;
@@ -24,6 +25,14 @@ a:hover{
 
 img{
   object-fit: cover;
+}
+
+/* UTILITY */
+
+
+/* Padding */
+.pl-2{
+  padding-left: 20px;
 }
 
 .px-1{
@@ -66,6 +75,7 @@ img{
   padding: 50px 0;
 }
 
+/* Margin */
 .mx-1{
   margin: 0 10px;
 }
@@ -106,10 +116,7 @@ img{
   margin: 50px 0;
 }
 
-.pl-2{
-  padding-left: 20px;
-}
-
+/* Larghezza e altezza */
 .w-100{
   width: 100%;
 }
@@ -122,6 +129,7 @@ img{
   height: 50%;
 }
 
+/* Position */
 .relative{
   position: relative;
 }
@@ -135,6 +143,7 @@ img{
   left: 0;
 }
 
+/* Container */
 .container{
   width: 90%;
   max-width: 1200px;
@@ -142,6 +151,7 @@ img{
   margin: 0 auto;
 }
 
+/* Utility flex */
 .flex-container{
   display: flex;
 }
@@ -158,6 +168,7 @@ img{
   align-self: center;
 }
 
+/* Header */
 header{
   position: fixed;
   top: 0;
@@ -181,6 +192,7 @@ header .container .top-left-menu{
   font-weight: 800;
 }
 
+/* Main */
 main{
   margin-top: 80px;
 }
@@ -261,6 +273,7 @@ main{
   content: "\20AC";
 }
 
+/* Foooter */
 footer{
   height: 150px;
   background-color: #1A1A1A;
