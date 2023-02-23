@@ -197,21 +197,21 @@ main{
   margin-top: 80px;
 }
 
-.col{
+.card{
   width: calc(100%/3);
   min-width: 350px;
   cursor: pointer;
 }
 
-.col .images img:last-of-type{
+.card .images img:last-of-type{
   display: none;
 }
 
-.col .images:hover img:last-of-type{
+.card .images:hover img:last-of-type{
   display: block;
 }
 
-.card-infos .image-badge{
+.card .image-badge{
   bottom: 10px;
   left: 0;
   z-index: 1;
@@ -219,20 +219,20 @@ main{
   font-weight: 800;
 }
 
-.card-infos .image-badge .discount{
+.card .image-badge .discount{
   display: inline-block;
   background-color: red;
   padding: 5px 10px;
   margin-right: 5px;
 }
 
-.card-infos .image-badge .sustainability{
+.card .image-badge .sustainability{
   display: inline-block;
   background-color: green;
   padding: 5px 10px;
 }
 
-.card-infos .favorite{
+.card .favorite{
   right: 0;
   top: 10px;
   padding: 5px 15px;
@@ -240,15 +240,15 @@ main{
   font-size: 40px;
 }
 
-.card-infos .favorite:hover{
+.card .favorite:hover{
   color: red;
 }
 
-.card-infos .card-undertext{
+.card .card-undertext{
   top: 100%;
 }
 
-.card-undertext span{
+.card-undertext span, .card-undertext del{
   font-size: 14px;
 }
 
@@ -263,12 +263,7 @@ main{
   font-weight: 800;
 }
 
-.card-undertext .original-price{
-  text-decoration: line-through;
-}
-
 .card-undertext .price:after{
-  margin-left: 3px;
   content: "\20AC";
 }
 
