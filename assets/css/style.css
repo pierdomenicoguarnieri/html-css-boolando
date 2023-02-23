@@ -200,20 +200,20 @@ main{
 .col{
   width: calc(100%/3);
   min-width: 350px;
-  height: 650px;
+  height: 620px;
   cursor: pointer;
 }
 
-.col .images img:last-child{
+.col .images img:last-of-type{
   display: none;
 }
 
-.col .images:hover img:last-child{
+.col .images:hover img:last-of-type{
   display: block;
 }
 
 .card-infos .bottom-image-infos{
-  bottom: 18%;
+  bottom: 10px;
   left: 0;
   z-index: 1;
   color: white;
@@ -246,7 +246,7 @@ main{
 }
 
 .card-infos .card-undertext{
-  top: 550px;
+  top: 100%;
 }
 
 .card-undertext span{
