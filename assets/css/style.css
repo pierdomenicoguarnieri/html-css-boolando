@@ -200,7 +200,6 @@ main{
 .col{
   width: calc(100%/3);
   min-width: 350px;
-  height: 720px;
   cursor: pointer;
 }
 
@@ -212,7 +211,7 @@ main{
   display: block;
 }
 
-.card-infos .bottom-image-infos{
+.card-infos .image-badge{
   bottom: 10px;
   left: 0;
   z-index: 1;
@@ -220,14 +219,14 @@ main{
   font-weight: 800;
 }
 
-.card-infos .bottom-image-infos .discount{
+.card-infos .image-badge .discount{
   display: inline-block;
   background-color: red;
   padding: 5px 10px;
   margin-right: 5px;
 }
 
-.card-infos .bottom-image-infos .sustainability{
+.card-infos .image-badge .sustainability{
   display: inline-block;
   background-color: green;
   padding: 5px 10px;
@@ -278,6 +277,7 @@ footer{
   height: 150px;
   background-color: #1A1A1A;
   color: white;
+  margin-top: 100px;
 }
 
 footer .flex-container{
