@@ -146,7 +146,7 @@ img{
 /* Container */
 .container{
   width: 90%;
-  max-width: 1200px;
+  max-width: 1400px;
   min-width: 350px;
   margin: 0 auto;
 }
@@ -200,7 +200,7 @@ main{
 .col{
   width: calc(100%/3);
   min-width: 350px;
-  height: 620px;
+  height: 720px;
   cursor: pointer;
 }
 
